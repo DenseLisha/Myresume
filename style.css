@@ -1,0 +1,86 @@
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.profile-img{
+    height: 150px;
+    border-radius: 50%;
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}    
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.chilli-img {
+    width: 50%;
+    margin-left: 30px;
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+p {
+    line-height: 2;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
